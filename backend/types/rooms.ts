@@ -1,7 +1,7 @@
-enum RoomState {
-    "readyToStart" ,
-    "inProgress",
-    "finished",
+export enum RoomState {
+    readyToStart = "readyToStart" ,
+    inProgress = "inProgress",
+    finished = "finished",
 }
 
 export interface Rooms {
