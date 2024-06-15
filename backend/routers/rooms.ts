@@ -71,7 +71,7 @@ router.post('/startGame/:roomId', async (req: express.Request, res: express.Resp
     }
 });
 
-router.post('/roomUsers/:roomId', async (req: express.Request, res: express.Response) => {
+router.post('/getRoomUsers/:roomId', async (req: express.Request, res: express.Response) => {
     const response = getRoomUsers(req.params.roomId);
 
     if(response) {

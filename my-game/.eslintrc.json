@@ -21,7 +21,8 @@
     "react-hooks",
     "jsx-a11y",
     "import",
-    "prettier"
+    "prettier",
+    "only-warn"
   ],
   "rules": {
     "react/prop-types": "off",
